@@ -1,6 +1,6 @@
 # GameBoy-Snake
 Jogo da Snake (cobrinha) usando HTML, CSS e JavaScript puro com visual do GameBoy
-Utilizando o editor Nano
+utilizando o editor Nano
 
 Jogue agora acessando: https://codepen.io/GabsEGabs/pen/LYyRyrb 
 
