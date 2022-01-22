@@ -1,0 +1,173 @@
+html {
+  padding: 0;
+  margin: 0;
+  background:rgb(167, 45, 45);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.mensagem{
+  color: white;
+  font-family: Arial;
+  position: absolute;
+  top: 05%;
+  left: 05%;  
+}
+.fim-mensagem{
+  color: white;
+  font-family: Arial;
+  position: absolute;
+  top: 300%;
+  left: 05%;
+}
+
+.gameboy{
+  position: absolute;
+  top: 50%;                         
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-right: -50%;
+  background: #BEC2BD;
+  width: 330px;
+  height: 520px;
+  border-radius: 15px 15px 60px 15px;
+}
+.fundo-tela {
+  position: absolute;
+  top: 20px;
+  left: 28px;
+  background: #5E5D6F;
+  width: 275px;
+  height: 270px;
+  border-radius: 15px 15px 40px 15px;
+}
+canvas{
+  position: absolute;
+  top: 35px;
+  left: 35px; 
+}
+
+.marca {
+  position: absolute;
+  color: #1B2F87;
+  top: 280px;
+  left: 40px;
+}
+
+.nintendo {
+  float: left;
+  font-family: arial;
+  font-weight: 600;
+}
+
+.GB {
+  float: left;
+  margin-left: 5px;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 12px;
+}
+
+.fundo-direcionais {
+  background: #999;
+  position: absolute;
+  top: 330px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.direcionais {
+  background: #252625;
+  position: absolute;
+  left: 38px;
+  top: 13px;
+  width: 23px;
+  height: 75px;
+  border-radius: 3px;
+}
+.direcionais::after {
+  content: "";
+  background: #252625;
+  position: absolute;
+  left: -25px;
+  top: 25px;
+  width: 75px;
+  height: 23px;
+  border-radius: 3px;
+} 
+
+.fundo-botao {
+  background: #999;
+  width: 100px;
+  height: 45px;
+  position: absolute;
+  top: 360px;
+  left: 190px;
+  border-radius: 55px;
+  transform: rotate(-30deg);
+}
+
+.A {
+  background: #AA1E6E;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+.A::after {
+  content: "";
+  background: #AA1E6E;
+  position: absolute;
+  left: 55px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.start-botao {
+  position: absolute;
+  font-weight: 600;
+  top: 460px;
+  left: 160px;
+  background: #888;
+  height: 10px; 
+  width: 40px;
+  border-radius: 45px;
+  transform: rotate(-25deg);
+  border: 2px solid #999;
+}
+.start {
+  color: #1B2F87;
+  font-family: arial;
+  font-size: 12px;
+  position: absolute;
+  top: 12px;
+  left: 8px;
+}
+
+.select-botao {
+  position: absolute;
+  top: 460px;
+  left:100px;
+  background: #888;
+  height: 10px; 
+  width: 40px;
+  border-radius: 45px;
+  transform: rotate(-25deg);
+  border: 2px solid #999;
+}
+.select{
+  color: #1B2F87;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 12px;
+  left: 4px;
+}
