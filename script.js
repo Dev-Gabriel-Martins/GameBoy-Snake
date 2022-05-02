@@ -97,22 +97,22 @@ window.onload = function(){
     function keyPush (event){
 
     switch (event.keyCode) {
-			case 65: /*Esquerda */
+			case 37: /*Esquerda */
       veloX = -velocidade;
       veloY = 0;
       break;
 
-      case 87: /*Cima*/
+      case 38: /*Cima*/
       veloX = 0;
       veloY = -velocidade;
       break;
 
-      case 68: /*Direita*/
+      case 39: /*Direita*/
       veloX = velocidade;
       veloY = 0;
       break;
 
-      case 83: /*Baixo*/
+      case 40: /*Baixo*/
       veloX = 0;
       veloY = velocidade;
       break;
